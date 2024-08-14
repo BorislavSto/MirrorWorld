@@ -20,7 +20,7 @@ public:
 	
 	/** Delegate to whom anyone can subscribe to receive this event */
 	UPROPERTY(BlueprintAssignable, Category = "Interaction")
-	FOnPickUp OnPickUp;
+	FOnPickUp OnPickUp;	
 
 	UTP_PickUpComponent();
 protected:
